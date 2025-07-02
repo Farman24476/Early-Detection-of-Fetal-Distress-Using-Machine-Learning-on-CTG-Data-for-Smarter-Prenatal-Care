@@ -35,6 +35,10 @@ Achieved up to 99% accuracy (XGBoost) — surpassing traditional statistical and
 
 The experimental evaluation demonstrated that machine learning models significantly outperformed traditional methods in detecting fetal distress from CTG data. Among all models tested, the XGBoost classifier achieved the highest performance with an accuracy of 99.04% and an ROC-AUC of 0.9998, making it the most reliable model for this classification task. CatBoost and LightGBM followed closely, both achieving accuracies above 98%. Random Forest and Gradient Boosting also maintained strong performance, indicating the robustness of ensemble-based models in medical signal classification. In contrast, baseline models such as Naïve Bayes and Logistic Regression showed lower accuracy and recall, especially in detecting 'Suspect' and 'Pathological' cases. These results confirm the effectiveness of advanced ML techniques in supporting early, accurate, and automated diagnosis of fetal complications, particularly beneficial in under-resourced clinical environments.
 
+© 2025 Farman Ali All rights reserved.  
+Unauthorized use, reproduction, or distribution of this project’s content (including code, data, and methodology) is strictly prohibited without prior written permission.
+
+
 ## ML Workflow
 
 ```mermaid
@@ -44,7 +48,3 @@ flowchart TD
     C --> D[Model Training]
     D --> E[Evaluation & Visualization]
     E --> F[Clinical Insight & Interpretation]
-
-
-© 2025 Farman Ali All rights reserved.  
-Unauthorized use, reproduction, or distribution of this project’s content (including code, data, and methodology) is strictly prohibited without prior written permission.

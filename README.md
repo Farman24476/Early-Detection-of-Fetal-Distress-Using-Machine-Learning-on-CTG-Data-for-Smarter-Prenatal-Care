@@ -41,3 +41,5 @@ flowchart TD
     C --> D[Model Training]
     D --> E[Evaluation & Visualization]
     E --> F[Clinical Insight & Interpretation]
+![Descriptive Caption](path/to/image.png)
+

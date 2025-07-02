@@ -45,3 +45,6 @@ flowchart TD
     D --> E[Evaluation & Visualization]
     E --> F[Clinical Insight & Interpretation]
 
+
+© 2025 Farman Ali All rights reserved.  
+Unauthorized use, reproduction, or distribution of this project’s content (including code, data, and methodology) is strictly prohibited without prior written permission.
